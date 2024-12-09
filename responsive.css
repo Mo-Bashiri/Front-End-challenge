@@ -1,0 +1,156 @@
+/* Bellow 900 px */
+
+@media (max-width:56em) {
+
+  .container{
+    width: 44rem;
+    max-width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .header{
+    width: 15rem;
+  }
+
+  .profile-picture{
+    width:5rem;
+    height: 5rem;
+  }
+
+.header .profile-picture{
+  margin:0 2rem 1rem 4rem ;
+}
+
+  hr.new{
+    margin: 3rem auto;
+  }
+
+  .list li{
+    width: 10rem;
+  }
+
+  .section2{
+    width:29rem;
+  }
+
+  .section2 h1{
+    font-size: 1.5rem;
+  }
+
+  .section2 h1::after{
+    width: 20rem;
+    font-size: 0.6rem;
+    top: 2rem;
+  }
+
+  .section2 h2{
+    font-size: 1rem;
+    margin-top:4.5rem ;
+  }
+
+  .header2 p, .header p{
+    font-size: 0.8rem;
+  }
+
+}
+
+
+/* Bellow 704px */
+@media(max-width:44em){
+
+  .container{
+    flex-direction: column;
+    max-width: 100%;
+  }
+
+  .header{
+    width: 100%;
+  }
+
+  .header list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .header li{
+    flex: 1 1 calc(35% - 1rem);
+    max-width: calc(50% - 1rem);
+    margin: 0rem 1rem 0.5rem 0;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+  }
+
+  .section2{
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .section2 h1::after{
+    width: 25rem;
+    font-size: 0.7rem;
+  }
+
+  .list li{
+    width: 12rem;
+  }
+
+  .header .profile-picture{
+    margin-left: 1rem ;
+  }
+
+}
+
+/* Below 426px */
+@media(max-width:27em){
+
+  .container{
+    width: 100%;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .profile-picture{
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .header .profile-picture{
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+
+
+  .header list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .header li{
+    flex: 1 1 calc(35% - 1rem);
+    max-width: calc(50% - 1rem);
+    margin: 0rem 1rem 0.5rem 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .header h2{
+    margin-top: 0;
+  }
+
+  hr.new{
+    width: 50%;
+  }
+
+  .list{
+    margin-left: 1.2rem;
+  }
+}
