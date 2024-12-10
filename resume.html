@@ -40,11 +40,11 @@
         <button onclick="rotateIcon()" class="toggle-btn" id="toggle-contact-btn"><ion-icon class="ion-icon"
             name="chevron-down-outline"></ion-icon></button>
       </div>
-      <list id="contact-section" class="hidden">
-        <li><ion-icon class="icon" name="mail-open"></ion-icon> yourname@example.com</li>
-        <li><ion-icon class="icon" name="call"></ion-icon> +123 456 7890</li>
-        <li><ion-icon class="icon" name="logo-linkedin"></ion-icon><a href="#">linkedin.com/in/johndoe</a></li>
-        <li><ion-icon class="icon" name="logo-github"></ion-icon>Github</li>
+      <list id="contact-section">
+        <li><ion-icon class="icon" name="mail-open"></ion-icon> <a href="#">Email</a></li>
+        <li><ion-icon class="icon" name="call"></ion-icon> +981234567891</li>
+        <li><ion-icon class="icon" name="logo-linkedin"></ion-icon><a href="#">linkedin</a></li>
+        <li><ion-icon class="icon" name="logo-github"></ion-icon><a href="#">Github</a></li>
       </list>
     </div>
 
@@ -52,13 +52,15 @@
     <div class="section2">
       <div class="header2">
         <h1>Your Name</h1>
+
+        <!-- work experience section -->
         <div class="toggle-section">
           <h2>work experience</h2>
           <button onclick="rotateIcon()" class="toggle-btn" id="toggle-work-btn"><ion-icon class="ion-icon"
-            name="chevron-down-outline"></ion-icon></button>
+              name="chevron-down-outline"></ion-icon></button>
         </div>
         <hr class="new1">
-        <div id="work-section" class="hidden">
+        <div id="work-section">
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque aliquam ducimus illum eum rerum sequi nulla
             fugiat nihil. Exercitationem, ut. Provident necessitatibus odit quisquam! Recusandae modi nam nulla error
             excepturi.</p>
@@ -67,13 +69,14 @@
             excepturi.</p>
         </div>
 
+        <!-- education section -->
         <div class="toggle-section">
           <h2>education</h2>
           <button onclick="rotateIcon()" class="toggle-btn" id="toggle-education-btn"><ion-icon class="ion-icon"
-            name="chevron-down-outline"></ion-icon></button>
+              name="chevron-down-outline"></ion-icon></button>
         </div>
         <hr class="new1">
-        <div id="education-section" class="hidden">
+        <div id="education-section">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam facere accusamus quod corrupti ipsam at
             laboriosam nobis, quaerat consequuntur voluptas nemo, quibusdam, quis ipsum? Asperiores impedit ratione
             quisquam itaque! Necessitatibus.</p>
@@ -83,13 +86,13 @@
         </div>
 
         <!-- Skills Section -->
-         <div class="toggle-section">
-           <h2>Skills</h2>
-           <button onclick="rotateIcon()" class="toggle-btn" id="toggle-skills-btn"><ion-icon class="ion-icon"
-             name="chevron-down-outline"></ion-icon></button>
-         </div>
+        <div class="toggle-section">
+          <h2>Skills</h2>
+          <button onclick="rotateIcon()" class="toggle-btn" id="toggle-skills-btn"><ion-icon class="ion-icon"
+              name="chevron-down-outline"></ion-icon></button>
+        </div>
         <hr class="new1">
-        <div id="skills-section" class="hidden">
+        <div id="skills-section">
           <ul class="list">
             <li>HTML5</li>
             <li>CSS3</li>
